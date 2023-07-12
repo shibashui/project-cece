@@ -2,14 +2,18 @@
   "name": "vite_project",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://shibashui.github.io/project-cece/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "vant": "^4.6.1",
     "vue": "^3.3.4",
     "xijs": "^1.2.6"
