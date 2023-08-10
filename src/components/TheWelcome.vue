@@ -36,7 +36,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
     <br />
 
-    More instructions are available in <code>README.md</code>.
+    More instructions are available in <code>README.mda</code>.
   </WelcomeItem>
 
   <WelcomeItem>
